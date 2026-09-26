@@ -12,10 +12,9 @@ The application is designed to help manage books, members, borrowing, and return
 * 🔍 Search for books
 * 📚 View available books
 * 📤 Issue/borrow books
-* 📥 Return books
 * 📋 Track borrowing records
 * 💾 Store data using SQLite database
-* 🖥️ User-friendly desktop interface using Tkinter
+
 
 ## 🛠️ Technologies Used
 
@@ -31,10 +30,8 @@ The application is designed to help manage books, members, borrowing, and return
 Library-Management-System/
 │
 ├── main.py
-├── database.py
 ├── books.py
 ├── members.py
-├── transactions.py
 │
 ├── library.db
 │
@@ -113,42 +110,7 @@ python main.py
 
 ## 🖥️ Application
 
-The application provides a graphical interface where users can manage library books, members, and borrowing transactions.
-
-## 📌 Future Enhancements
-
-* 🔐 User login and authentication
-* 👥 Different user roles such as Admin and Librarian
-* 📊 Dashboard with library statistics
-* 🔔 Overdue book notifications
-* 💰 Fine calculation
-* 📄 Generate reports
-* 🔎 Advanced book search and filtering
-* 📤 Export reports to CSV/PDF
-* 🌙 Dark mode
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your changes
-5. Create a Pull Request
-
-## 📄 License
-
-This project is created for educational and learning purposes.
-
-## 👨‍💻 Author
-
-**Your Name**
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
-
+The application provides a graphical interface where users can manage library books, members, and borrowing transaction
 
 
 👩‍💻 Developed By
