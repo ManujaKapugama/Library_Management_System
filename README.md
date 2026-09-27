@@ -1,18 +1,16 @@
 # 📚 Library Management System
-A desktop-based Library Management System developed using Python and CustomTkinter. The application provides a graphical interface for insert books, update book details, delete books & user management
+A desktop-based Library Management System developed using Python, Tkinter & sqlite. The application provides a graphical interface for insert books, update book details, delete books & user management.
 
 A simple desktop-based **Library Management System** developed using **Python, Tkinter, and SQLite**.
-
-The application is designed to help manage books, members, borrowing, and returning activities in a small library.
 
 ## 🚀 Features
 
 * 📖 Add, update, delete, and view books
-* 👤 Manage library members
+* 👤 Manage library members - [Pending]
 * 🔍 Search for books
 * 📚 View available books
-* 📤 Issue/borrow books
-* 📋 Track borrowing records
+* 📤 Issue/borrow books - [Pending]
+* 📋 Track borrowing records - [Pending]
 * 💾 Store data using SQLite database
 
 
@@ -30,8 +28,6 @@ The application is designed to help manage books, members, borrowing, and return
 Library-Management-System/
 │
 ├── main.py
-├── books.py
-├── members.py
 │
 ├── library.db
 │
@@ -54,12 +50,9 @@ Stores information about library books.
 * Book ID
 * Title
 * Author
-* ISBN
-* Category
-* Quantity
 * Available Quantity
 
-### Members
+### Members - [Pending]
 
 Stores information about library members.
 
@@ -69,7 +62,7 @@ Stores information about library members.
 * Phone
 * Address
 
-### Borrowing / Transactions
+### Borrowing / Transactions - [Pending]
 
 Stores book borrowing and returning information.
 
